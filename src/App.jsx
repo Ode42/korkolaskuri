@@ -1,13 +1,10 @@
 import "./App.css";
-import InputPanel from "./components/InputPanel";
-import OutputPanel from "./components/OutputPanel";
+import KorkoWrapper from "./components/KorkoWrapper";
 
 function App() {
   return (
     <div className="App">
-      <h2>Korkolaskuri sijoituksille</h2>
-      <InputPanel />
-      <OutputPanel />
+      <KorkoWrapper />
     </div>
   );
 }
