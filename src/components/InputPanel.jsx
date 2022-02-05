@@ -23,9 +23,6 @@ export default function InputPanel(props) {
             setSijoitussumma(e.target.value);
           }}
         />
-        <button type="button" onClick={sijoitussummaUpdate}>
-          Lähetä
-        </button>
       </form>
     </div>
   );
